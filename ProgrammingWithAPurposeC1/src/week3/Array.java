@@ -8,7 +8,7 @@ public class Array
 	public static void main(String[] args) 
 	{
 		int[] b = {1,2,3};
-		int[] c = b;
+		int[] c = b; // 1 , 2 , 3
 		c[0] += b[2];
 		c[1] += b[1];
 		c[2] += b[0];
