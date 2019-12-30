@@ -7,16 +7,35 @@ public class Week1
 
 	public static void main(String[] args) 
 	{
-		for(int i = 1; i <= 10; i++)
-		{
-			int j = (int) (Math.random() * i);
-			StdOut.println(j + ". Hello, World");
-			StdOut.println();
-		}
+		/*
+		 * StdOut.println(2 + "bc"); StdOut.println((2 + 3) + "bc"); StdOut.println("bc"
+		 * + 2 + 3); StdOut.println("bc" + (2 + 3));
+		 * 
+		 * StdOut.println('a');
+		 */
+
+		/*
+		 * int a = 2147483647;
+		 * 
+		 * System.out.println(a);
+		 * 
+		 * System.out.println(2 - a);
+		 * 
+		 * System.out.println(20 * a);
+		 * 
+		 * System.out.println(4 * a);
+		 */
 		
-		StdOut.println(Double.NEGATIVE_INFINITY);
+
+		double a = 3.14159;
 		
-		StdOut.println(6e2);
+		System.out.println(8/a);
+		
+		System.out.println((Math.sqrt(2) * Math.sqrt(2) == 2));
+		
+		System.out.println(((int)(Math.sqrt(2) * Math.sqrt(2)) == 2));
+			
+			
 	}
 
 }
