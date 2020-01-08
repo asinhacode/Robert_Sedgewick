@@ -1,0 +1,24 @@
+keywords:
+
+public : anyone can use it
+
+static : no need to make an object
+
+void : returns nothing
+
+args : arguments
+
+identifier : Start with letter, then digits, _, and $
+
+literals: String fo digits
+
+int iAm = 3;
+declaration + identifier = assignment;
+
+single variable = arbitrary variables combined with mathematical operators
+
+
+Methods: Conversion from string to integer , Integer.parseInt(args[0]);
+Integer.parseInt("123"); = 123 in int --> conversion of String into primitive types
+
+
